@@ -40,33 +40,16 @@
         android:background="@drawable/login_shape_bk"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:gravity="center"
-            android:orientation="horizontal">
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:background="@color/blue"
-                android:src="@drawable/acc_circle"
-                app:shapeAppearanceOverlay="@style/circular" />
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/cameraIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|bottom"
-                android:layout_marginLeft="-30dp"
-                android:layout_marginTop="30dp"
-                android:layout_weight="1"
-                android:clickable="true"
-                app:srcCompat="@drawable/camera"
-                android:contentDescription="CameraIcon" />
-        </LinearLayout>
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/blue"
+            android:src="@drawable/acc_circle"
+            app:shapeAppearanceOverlay="@style/circular" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
