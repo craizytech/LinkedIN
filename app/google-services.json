@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138185965541",
+    "project_id": "linkedin-fdd34",
+    "storage_bucket": "linkedin-fdd34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138185965541:android:89392d5019ad270e0d390c",
+        "android_client_info": {
+          "package_name": "com.example.linkedin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHmtnNw4WDdw_4oCoAeIGr5MO_jhKHSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

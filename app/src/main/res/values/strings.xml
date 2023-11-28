@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LinkedIN</string>
+    <string name="login">Login</string>
+    <string name="sign_in_to_continue">Sign In to continue</string>
+    <string name="email">Email</string>
+    <string name="enter_the_email">Enter The Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+</resources>
